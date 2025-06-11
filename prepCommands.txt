@@ -1,0 +1,7 @@
+npm create vite@latest . -- --template react
+npm install
+npm install @reduxjs/toolkit
+npm install redux-thunk
+npm install react-router-dom
+npm install redux
+npm install react-router

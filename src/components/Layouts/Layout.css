@@ -1,0 +1,18 @@
+.page-body {
+    flex: 1; /* займе весь доступний простір */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Вміст Outlet буде в блоці з рамкою + фон */
+.page-body > * {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: inherit; /* автоматично по темі */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
